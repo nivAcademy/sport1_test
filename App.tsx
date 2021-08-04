@@ -8,10 +8,11 @@ import store from './src/state/Store';
 import splashScreen from 'react-native-splash-screen';
 import { useEffect } from 'react';
 
+//test
 function App() {
   useEffect(() => {
     splashScreen.hide();
-  }, []);
+  });
   return (
     <Provider store={store}>
       <SafeAreaProvider>
